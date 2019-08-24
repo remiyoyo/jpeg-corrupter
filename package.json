@@ -7,7 +7,7 @@
     "test": "echo 'this doesnt have tests, fucking OOPS'"
   },
   "author": "Remi Butler",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "@remibutler/easyrandom": "^1.1.0"
   }
