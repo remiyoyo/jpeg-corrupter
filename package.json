@@ -1,0 +1,14 @@
+{
+  "name": "jpeg-corrupter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "corrupt.js",
+  "scripts": {
+    "test": "echo 'this doesnt have tests, fucking OOPS'"
+  },
+  "author": "Remi Butler",
+  "license": "ISC",
+  "dependencies": {
+    "@remibutler/easyrandom": "^1.1.0"
+  }
+}
