@@ -19,8 +19,8 @@ const length = file.length;
 
 let numbCorrupted = 0;
 
-for (let i = 100; i < length; i++) {
-  let willCorrupt = ezrand.getMax(1000000) > (999990 + parseInt(corruptionAmmount, 10));
+for (let i = Math.floor(length*0.01); i < length; i++) {
+  let willCorrupt = ezrand.getMax(100000) > (99990 + parseInt(corruptionAmmount, 10));
 
   if (willCorrupt) {
     file[i] = (ezrand.flipACoin()) ? i + ezrand.getMax(10) : i - ezrand.getMax(10);
