@@ -10,6 +10,6 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@remibutler/easyrandom": "^1.1.0",
-    "jpeg-js": "^0.3.6"
+    "jpeg-js": "^0.4.0"
   }
 }
